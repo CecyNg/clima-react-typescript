@@ -67,6 +67,6 @@ function Form( { fetchWeather }: FormProps ) {
 
 export default Form;
 
-function fetchWeather() {
-    throw new Error("Function not implemented.");
-}
+// function fetchWeather() {
+//     throw new Error("Function not implemented.");
+// }

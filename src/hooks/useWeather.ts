@@ -1,9 +1,7 @@
 import axios from 'axios';
 import type { SearchType} from '../types';
 import { z } from 'zod'
-import { maxEntries } from 'valibot';
 import { useMemo, useState } from 'react';
-import { set } from 'zod/v4';
 // import { object, string, number, Output, parse } from 'valibot'
 
 // function isWeatherResponse(weather : unknown): weather is Weather {

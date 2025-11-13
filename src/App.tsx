@@ -1,6 +1,5 @@
 import styles from './App.module.css';
 import Form from './components/Form/Form';
-import type { SearchType } from './types';
 import useWeather from './hooks/useWeather';
 import WeatherDetail from './components/weatherDetails/WeatherDetail'
 import Spinner from './components/spinner/Spinner';
